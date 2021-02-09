@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "78199846182",
+    "project_id": "efmist-94e6a",
+    "storage_bucket": "efmist-94e6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78199846182:android:6647a55399aea82336fde7",
+        "android_client_info": {
+          "package_name": "com.example.efmist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78199846182-kbuog38t2mpgaiq6c6ag8lu48knadv3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOnpMmBRjPL_00rEf0Tq6deiJscKDPkJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78199846182-kbuog38t2mpgaiq6c6ag8lu48knadv3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

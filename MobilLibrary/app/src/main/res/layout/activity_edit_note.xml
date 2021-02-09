@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffe8"
+    android:orientation="vertical"
+    tools:context=".Not.EditNoteActivity">
+
+    <EditText
+        android:id="@+id/EditTextNoteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:hint="Not Başlığı"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/EditTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:hint="Notunuzu yazınız..."
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/EditTextBookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:hint="Kitap adını yazabilirsiniz..."
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/EditTextAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:hint="Yazar adını yazabilirsiniz..."
+        android:inputType="text" />
+
+
+</LinearLayout>

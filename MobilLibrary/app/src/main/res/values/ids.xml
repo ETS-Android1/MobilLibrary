@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bottomMenu" type="id" />
+    <item name="fragmentContainer" type="id" />
+    <item name="fabMsg" type="id" />
+    <item name="fabNot" type="id" />
+    <item name="fabLib" type="id" />
+    <item name="fabMenu" type="id" />
+</resources>

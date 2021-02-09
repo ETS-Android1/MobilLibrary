@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c1d4f1">
+
+
+    <RelativeLayout
+        android:layout_width="377dp"
+        android:layout_height="146dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:id="@+id/baslık"
+        android:background="@color/white">
+
+
+        <ImageButton
+            android:id="@+id/editBtn"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_settings"
+            android:layout_marginLeft="330dp"
+            android:background="@color/white"
+            android:layout_marginTop="104dp"/>
+
+        <ImageView
+            android:id="@+id/avatarIv"
+            android:layout_width="109dp"
+            android:layout_height="111dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="5dp"
+            android:background="#c1d4f1"
+            android:src="@drawable/ic_add_photo" />
+
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="51dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emailTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="84dp"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/takipciTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="60dp"
+            android:text="Takipçi"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/takipciNoTv"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="40dp"
+
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/takipTv"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="60dp"
+            android:text="Takip"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/takipNoTv"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="40dp"
+
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/sozlukBtn"
+            android:layout_width="77dp"
+            android:layout_height="32dp"
+            android:layout_alignStart="@+id/emailTv"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="101dp"
+            android:layout_marginBottom="0dp"
+            android:background="@color/white"
+            android:backgroundTint="#FFFFFF"
+            android:text="Sözlük" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="377dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/baslık">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPurple"
+            android:id="@+id/appBarLayoutPro">
+            <com.google.android.material.tabs.TabLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tabLayoutPro"
+                app:tabSelectedTextColor="@color/first"
+                app:tabIndicator="@color/first">
+
+            </com.google.android.material.tabs.TabLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/viewpagerPro"/>
+    </RelativeLayout>
+
+</RelativeLayout>
